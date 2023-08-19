@@ -1,33 +1,26 @@
 
-# Jetbrains Fleet OneDark theme
+# Jetbrains Fleet One Dark Theme
+  
+This is a fork of the [sectasy0/fleet_one_dark](https://github.com/sectasy0/fleet_one_dark) with changed colors for maximum compliance with [IntelliJ One Dark theme](https://plugins.jetbrains.com/plugin/11938-one-dark-theme)
 
-This is an implementation of the popular One Dark Pro color scheme for JetBrains Fleet. One Dark Pro is a professional and elegant theme with a dark background and contrasting colors. This color scheme is designed to make your code easy to read and visually appealing.
 
-## Instalation
+## Preview
+![OneDark example](examples/example_1.png "OneDark example")
+![OneDark example](examples/example_2.png "OneDark example")
 
-To install the One Dark Pro color scheme in JetBrains Fleet, follow these steps:
+## Installation
 
-1. Download the `one-dark-pro.json` file from this repository.
+To install the One Dark color scheme in JetBrains Fleet, follow these steps:
+
+1. Download the [`one-dark.json`](https://raw.githubusercontent.com/rez0n/fleet-one-dark-theme/master/one-dark.json) file from this repository.
 2. Put this file inside `C:\Users\<your_username>\.fleet\themes\`
-3. Open JetBrains Fleet.
+3. Open/restart JetBrains Fleet.
 4. Go to Settings > Themes and pick `OneDark` from the list
 5. Enjoy your colors!
 
-## Preview
-
-Few screenshots presenting how this scheme looks like.
-
-# Python
-![OneDark example](examples/example.png "OneDark example")
-# CSS
-![OneDark example](examples/example_css.png "OneDark css example")
-# HTML
-![OneDark example](examples/example_html.png "OneDark html example")
-# JavaScript
-![OneDark example](examples/example_js.png "OneDark js example")
-
-## Feedback
-If you have any issues or suggestions for improvements to the One Dark Pro color scheme for JetBrains IDEs, please open an issue or send an email.
+```
+curl -o ~/.fleet/themes/one-dark.json https://raw.githubusercontent.com/rez0n/fleet-one-dark-theme/master/one-dark.json
+```
 
 ## License
 This color scheme is licensed under the MIT License. You are free to use, modify, and distribute this theme as you see fit.
